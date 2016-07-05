@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">学校レポートカード</string>
+    <string name="txt_title">トップ学生</string>
+    <string name="img_description">画像</string>
+    <string name="txt_name">名: </string>
+    <string name="txt_grade">グレード: </string>
+    <string name="txt_position">ポジション: </string>
+    <string name="txt_class_attend">クラスの出席: </string>
+    <string name="dlg_title">タイトル</string>
+    <string name="dlg_ok">OK</string>
+</resources>

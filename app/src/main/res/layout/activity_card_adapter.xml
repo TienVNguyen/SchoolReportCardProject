@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutBasic">
+
+    <ProgressBar
+        android:id="@+id/pgb_card"
+        style="@style/ProgressBarForRelativeLayout"
+        android:indeterminate="true" />
+
+    <ImageView
+        android:id="@+id/img_card"
+        style="@style/ImageViewForRelativeLayout"
+        android:contentDescription="@string/img_description"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        style="@style/TextViewForRelativeLayout"
+        android:layout_toRightOf="@id/img_card"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_grade"
+        style="@style/TextViewForRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_toRightOf="@id/img_card" />
+
+    <TextView
+        android:id="@+id/txt_position"
+        style="@style/TextViewForRelativeLayout"
+        android:layout_below="@id/txt_name"
+        android:layout_toRightOf="@id/txt_grade" />
+
+    <TextView
+        android:id="@+id/txt_classAttend"
+        style="@style/TextViewForRelativeLayout"
+        android:layout_below="@id/txt_grade"
+        android:layout_toRightOf="@id/img_card" />
+</RelativeLayout>
